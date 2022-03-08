@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Property search</title>
+    <title>Perfect Realty</title>
+      <link rel="icon" href="img/favicon.ico">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/global.css" rel="stylesheet">
 	<link href="css/index.css" rel="stylesheet">
@@ -113,9 +114,9 @@
 <section id="center" class="center_home clearfix">
 <div class="center_main clearfix">
  <div class="w3-content w3-section clearfix">
-  <img class="mySlides w3-animate-top" src="img/about2.jpg" alt="abc" style="width: 100%; display: none;">
-  <img class="mySlides w3-animate-bottom" src="img/l1.jpg" alt="abc" style="width: 100%; display: block;">
-  <img class="mySlides w3-animate-top" src="img/s1.jpg" alt="abc" style="width: 100%; display: none;">
+  <img class="mySlides w3-animate-top" src="img/nav2.jpeg" alt="abc" style="width: 100%; display: none;">
+  <img class="mySlides w3-animate-bottom" src="img/nav3.jpg" alt="abc" style="width: 100%; display: block;">
+  <img class="mySlides w3-animate-top" src="img/nav5.jpg" alt="abc" style="width: 100%; display: none;">
 </div>
 
  <div class="center_main_1 clearfix">
@@ -826,7 +827,7 @@
 								</ul>
 							</div>
 							<div class="profilei text-center clearfix">
-								<h3 class="mgt">Dwayne Johnson</h3>
+								<h3 class="mgt">Rashid</h3>
 								<h5>Real Estate Agent</h5>
 								<h5><a class="button" href="#">View Profile</a></h5>
 							</div>
@@ -846,7 +847,7 @@
 								</ul>
 							</div>
 							<div class="profilei text-center clearfix">
-								<h3 class="mgt">Lissa Massa</h3>
+								<h3 class="mgt">Lissa </h3>
 								<h5>Real Estate Agent</h5>
 								<h5><a class="button" href="#">View Profile</a></h5>
 							</div>
@@ -866,7 +867,7 @@
 								</ul>
 							</div>
 							<div class="profilei text-center clearfix">
-								<h3 class="mgt">Mark Antony</h3>
+								<h3 class="mgt">Mark </h3>
 								<h5>Real Estate Agent</h5>
 								<h5><a class="button" href="#">View Profile</a></h5>
 							</div>
@@ -886,7 +887,7 @@
 								</ul>
 							</div>
 							<div class="profilei text-center clearfix">
-								<h3 class="mgt">Elizabeth Kin</h3>
+								<h3 class="mgt">Elizabeth </h3>
 								<h5>Real Estate Agent</h5>
 								<h5><a class="button" href="#">View Profile</a></h5>
 							</div>
@@ -929,7 +930,7 @@
 							  the property I bought. I appreciate the timeliness and the detail of replies to the queries, the tips on how to get the best deal, and the suggestions on how to turn a house into home. I was very nervous buying my first home, and you helped to make
 							  this journey seamless and exciting"</p>
                            <hr>
-					       <h4>Lucy Daria</h4>
+					       <h4>Lucy </h4>
 						   <span class="span_1">
 						    <i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
@@ -946,7 +947,7 @@
 					      <p>We used Perfect Realty to sell our Waterfront property in Bayview. Their approach was professional and positive. They secured a smooth sale and an excellent price for our home. We also used them to
 							  purchase our new home in a different area.</p>
                            <hr>
-					       <h4>Mary Sam</h4>
+					       <h4>Mary</h4>
 						   <span class="span_1">
 						    <i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>
@@ -963,7 +964,7 @@
 					      <p>I used Perfect Realty to sell my Nightcliff property in early 2017.  I found Gabby to be straight down the line and honest with her approach to selling.  I followed her advice and judgment and presented the property as we agreed to give it the best chance of selling.  I was very pleasantly surprised when we received a decent strong offer in the first 48 hours of home opens and we accepted the offer.  Everything went smoothly and the property sold in 4 weeks.  All up start to finish took no more than 6 weeks and that’s because I listened to the advice and was
 							  realistic on were the market was at and Perfect Realty delivered.</p>
                            <hr>
-					       <h4>Paul Jones</h4>
+					       <h4>Paul</h4>
 						   <span class="span_1">
 						    <i class="fa fa-star"></i>
 							<i class="fa fa-star"></i>

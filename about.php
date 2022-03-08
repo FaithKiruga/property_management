@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Prop Find</title>
+    <title>Perfect Realty</title>
+      <link rel="icon" href="img/favicon.ico">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/global.css" rel="stylesheet">
 	<link href="css/about.css" rel="stylesheet">
@@ -250,7 +251,7 @@
                 </ul>
               </div>
 			  <div class="profilei text-center clearfix">
-				  <h3 class="mgt">Dwayne Johnson</h3>
+				  <h3 class="mgt">Johnson</h3>
 				  <h5>Real Estate Agent</h5>
 				  <h5><a class="button" href="#">View Profile</a></h5>
 			  </div>
@@ -270,7 +271,7 @@
                 </ul>
               </div>
 			  <div class="profilei text-center clearfix">
-				  <h3 class="mgt">Lissa Massa</h3>
+				  <h3 class="mgt">Lissa </h3>
 				  <h5>Real Estate Agent</h5>
 				  <h5><a class="button" href="#">View Profile</a></h5>
 			  </div>
@@ -290,7 +291,7 @@
                 </ul>
               </div>
 			  <div class="profilei text-center clearfix">
-				  <h3 class="mgt">Mark Antony</h3>
+				  <h3 class="mgt">Mark</h3>
 				  <h5>Real Estate Agent</h5>
 				  <h5><a class="button" href="#">View Profile</a></h5>
 			  </div>
@@ -310,7 +311,7 @@
                 </ul>
               </div>
 			  <div class="profilei text-center clearfix">
-				  <h3 class="mgt">Elizabeth Kin</h3>
+				  <h3 class="mgt">Elizabeth </h3>
 				  <h5>Real Estate Agent</h5>
 				  <h5><a class="button" href="#">View Profile</a></h5>
 			  </div>

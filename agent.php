@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Prop Find</title>
+    <title>Perfect Realty</title>
+      <link rel="icon" href="img/favicon.ico">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/global.css" rel="stylesheet">
 	<link href="css/agent.css" rel="stylesheet">
@@ -143,10 +144,10 @@
 		 <div class="agent_1l clearfix">
 		   <img src="img/img15.jpg" class="iw" alt="abc">
 		   <div class="agent_1li clearfix">
-		   <h4 class="mgt"><a href="agent_detail.php">Dwayne Johnson</a></h4>
+		   <h4 class="mgt"><a href="agent_detail.php">Rashid</a></h4>
 		   <h6><a href="agent_detail.php">Office: +254756789012</a></h6>
 		   <h6><a href="agent_detail.php">Mobile: +2547567189012</a></h6>
-		   <h6><a href="agent_detail.php">Email: dwayne@gmail.com</a></h6>
+		   <h6><a href="agent_detail.php">Email: rashid@gmail.com</a></h6>
 		   <hr>
 		   <div class="agent_1li1 clearfix">
 		    <h6 class="mgt"><a href="agent_detail.php"> Mzizi Court</a> <span class="pull-right"><a class="col_1" href="agent_detail.php">View My Listings</a></span></h6>
@@ -158,7 +159,7 @@
 		 <div class="agent_1l clearfix">
 		   <img src="img/img16.jpg" class="iw" alt="abc">
 		   <div class="agent_1li clearfix">
-		   <h4 class="mgt"><a href="agent_detail.php">Lisa Massa</a></h4>
+		   <h4 class="mgt"><a href="agent_detail.php">Lisa </a></h4>
 		   <h6><a href="agent_detail.php">Office: +254745689012</a></h6>
 		   <h6><a href="agent_detail.php">Mobile: +254745678901</a></h6>
 		   <h6><a href="agent_detail.php">Email: lisa@gmail.com</a></h6>
@@ -175,7 +176,7 @@
 		 <div class="agent_1l clearfix">
 		   <img src="img/img17.jpg" class="iw" alt="abc">
 		   <div class="agent_1li clearfix">
-		   <h4 class="mgt"><a href="agent_detail.php">Mark Antony</a></h4>
+		   <h4 class="mgt"><a href="agent_detail.php">Mark </a></h4>
 		   <h6><a href="agent_detail.php">Office: +25412389012</a></h6>
 		   <h6><a href="agent_detail.php">Mobile: +25412289012</a></h6>
 		   <h6><a href="agent_detail.php">Email: mark@gmail.com</a></h6>
@@ -190,7 +191,7 @@
 		 <div class="agent_1l clearfix">
 		   <img src="img/img18.jpg" class="iw" alt="abc">
 		   <div class="agent_1li clearfix">
-		   <h4 class="mgt"><a href="agent_detail.php">Elizabeth Kin</a></h4>
+		   <h4 class="mgt"><a href="agent_detail.php">Elizabeth </a></h4>
 		   <h6><a href="agent_detail.php">Office: +254778989012</a></h6>
 		   <h6><a href="agent_detail.php">Mobile: +254725489012</a></h6>
 		   <h6><a href="agent_detail.php">Email: lizkin@gmail.com</a></h6>
@@ -207,7 +208,7 @@
 		 <div class="agent_1l clearfix">
 		   <img src="img/aa1.jpg" class="iw" alt="abc">
 		   <div class="agent_1li clearfix">
-		   <h4 class="mgt"><a href="agent_detail.php">Taureen Wayne</a></h4>
+		   <h4 class="mgt"><a href="agent_detail.php">Taureen </a></h4>
 		   <h6><a href="agent_detail.php">Office: +25475678012</a></h6>
 		   <h6><a href="agent_detail.php">Mobile: +254745678012</a></h6>
 		   <h6><a href="agent_detail.php">Email: taureen@gmail.com</a></h6>
@@ -222,7 +223,7 @@
 		 <div class="agent_1l clearfix">
 		   <img src="img/a1.jpg" class="iw" alt="abc">
 		   <div class="agent_1li clearfix">
-		   <h4 class="mgt"><a href="agent_detail.php">Bridget Wells</a></h4>
+		   <h4 class="mgt"><a href="agent_detail.php">Bridget </a></h4>
 		   <h6><a href="agent_detail.php">Office: +254756789012</a></h6>
 		   <h6><a href="agent_detail.php">Mobile: +254745679012</a></h6>
 		   <h6><a href="agent_detail.php">Email: bridget@gmail.com</a></h6>
@@ -239,7 +240,7 @@
 		 <div class="agent_1l clearfix">
 		   <img src="img/a2.jpg" class="iw" alt="abc">
 		   <div class="agent_1li clearfix">
-		   <h4 class="mgt"><a href="agent_detail.php">Lovely Bradson</a></h4>
+		   <h4 class="mgt"><a href="agent_detail.php">Lovely </a></h4>
 		   <h6><a href="agent_detail.php">Office: +254756789012</a></h6>
 		   <h6><a href="agent_detail.php">Mobile: +254756789012</a></h6>
 		   <h6><a href="agent_detail.php">Email: lovely@gmail.com</a></h6>
@@ -254,7 +255,7 @@
 		 <div class="agent_1l clearfix">
 		   <img src="img/aa2.jpg" class="iw" alt="abc">
 		   <div class="agent_1li clearfix">
-		   <h4 class="mgt"><a href="agent_detail.php">Myles Munroe</a></h4>
+		   <h4 class="mgt"><a href="agent_detail.php">Myles </a></h4>
 		   <h6><a href="agent_detail.php">Office: +254756789012</a></h6>
 		   <h6><a href="agent_detail.php">Mobile: +25456789012</a></h6>
 		   <h6><a href="agent_detail.php">Email: myless@gmail.com</a></h6>
@@ -327,7 +328,7 @@
 			   <hr>
 			   <div class="center_detail_1ri1i1 clearfix">
 				   <img src="img/img16.jpg" width="50%" height="50%" class="img-circle" alt="abc">
-				   <h5 class="bold mgt">Lisa Massa</h5>
+				   <h5 class="bold mgt">Lisa </h5>
 				   <h6>Agent of Property</h6>
 			   </div>
 			   <h6><i class="fa fa-map-marker col_1"></i> 302 K Avenue, Nairobi</h6>

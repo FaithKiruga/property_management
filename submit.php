@@ -15,14 +15,16 @@ if($link === false){
       = $name_err = $username_err = $email_err = $phone_no_err ="";
 
   // Processing form data when form is submitted
-  if($_SERVER["REQUEST_METHOD"] == "POST"){
+  if($_SERVER["REQUEST_METHOD"] == "POST") {
 
-      function test_input($data) {
+      function test_input($data)
+      {
           $data = trim($data);
           $data = stripslashes($data);
           $data = htmlspecialchars($data);
           return $data;
       }
+
       //validate
 
       if (empty($_POST["property_title"])) {
@@ -80,7 +82,7 @@ if($link === false){
       }
 
       //validate
-      $property_address='property_address';
+      $property_address = 'property_address';
       if (empty($_POST["property_address"])) {
           $property_address_err = "Input required";
       } else {
@@ -120,7 +122,7 @@ if($link === false){
       }
 
       //validate
-      $google_maps_longitude='google_maps_longitude';
+      $google_maps_longitude = 'google_maps_longitude';
       if (empty($_POST["fname"])) {
           $fname_err = "Input required";
       } else {
@@ -160,7 +162,7 @@ if($link === false){
       }
 
       //validate
-      $username='username';
+      $username = 'username';
       if (empty($_POST["username"])) {
           $username_err = "Input required";
       } else {
@@ -168,7 +170,7 @@ if($link === false){
       }
 
       //validate
-      $email='email';
+      $email = 'email';
       if (empty($_POST["email"])) {
           $email_err = "Input required";
       } else {
@@ -182,27 +184,34 @@ if($link === false){
       } else {
           $phone_no = test_input($_POST["phone_no"]);
       }
-  }
+
+  // Check input errors before inserting in database
+
+      if (empty($property_title_err)  && empty($property_description_err)  && empty($status_err)  && empty($type_err)  && empty($rooms_err)  && empty($price_err)  && empty($area_err)  && empty($property_address_err)  && empty($city_err)  && empty($state_err)  && empty($country_err)  && empty($google_maps_latitude_err)  && empty($google_maps_longitude_err)  && empty($age_err)  && empty($bedrooms_err)  && empty($bathrooms_err)
+          && empty($name_err) && empty($username_err) && empty($email_err) && empty($phone_no_err)){
 
 
-  $sql= mysqli_query($link, "INSERT INTO property_description (property_title,property_description,status,type,rooms,price,area,property_address,
+      $sql = mysqli_query($link, "INSERT INTO property_description (property_title,property_description,status,type,rooms,price,area,property_address,
                                   city,state,country,google_maps_latitude,google_maps_longitude,Building_age,Bedrooms,Bathrooms,
            contact_name,username,email,phone) VALUES ('$property_title','$property_description','$status',
               '$type','$rooms','$price','$area','$property_address','$city','$state','$country',
               '$google_maps_latitude','$google_maps_longitude','$age','$bedrooms','$bathrooms',
-              '$name','$username','$email','$phone_no')" );
+              '$name','$username','$email','$phone_no')");
 
-        if ($sql === TRUE) {
-            // Redirect to login page
+      if ($sql === TRUE) {
+          // Redirect to login page
 //            header("location: log_in.php");
-             echo '<script>alert("Data submited successfully.")</script>';
-        } else {
-           echo '<script>alert("Oops! something wrong.")</script>';
-        }
-//    }
+          echo '<script>alert("Data submited successfully.")</script>';
+//            echo "Data submited successfully!";
+      } else {
+          echo '<script>alert("Oops! something wrong.")</script>';
+//            echo "Oops! Something is wrong!";
+      }
+  }
+
         // Close connection
         mysqli_close($link);
-
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -210,7 +219,8 @@ if($link === false){
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Prop Find</title>
+    <title>Perfect Realty</title>
+      <link rel="icon" href="img/favicon.ico">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/global.css" rel="stylesheet">
 	<link href="css/submit.css" rel="stylesheet">
@@ -385,14 +395,16 @@ if($link === false){
 	 </div>
 	</div>
    </div>
-   <div class="submit_1 clearfix">
-     <h4 class="mgt col_1">Property Media</h4>
-	 <hr>
-	 <div class="submit_1ii clearfix">
-	  <span class="span_1"><i class="fa fa-cloud-upload"></i></span>
-	  <h5>Click Here Or Drop Files To Upload</h5>
-	 </div>
-   </div>
+<!--   <div class="submit_1 clearfix">-->
+<!--     <h4 class="mgt col_1">Property Media</h4>-->
+<!--	 <hr>-->
+<!--      ****************MEDIA**********---->
+<!--	 <div class="submit_1ii clearfix">-->
+<!--	  <span class="span_1"><i class="fa fa-cloud-upload"></i></span>-->
+<!--	  <h5><a href="upload.php">Click Here Or Drop Files To Upload</a></h5>-->
+<!--	 </div>-->
+<!--   </div>-->
+<!--          ****************MEDIA**********-->
    <div class="submit_1 clearfix">
     <h4 class="mgt col_1">Property Location</h4>
 	<hr>
@@ -413,8 +425,8 @@ if($link === false){
 	<div class="submit_1i clearfix">
 	 <div class="col-sm-6 space_left">
 	  <div class="submit_1i1 clearfix">
-	    <h5>State</h5>
-	    <input class="form-control" placeholder="Enter Your State" type="text" name="state">
+	    <h5>Estate</h5>
+	    <input class="form-control" placeholder="Enter Your Estate" type="text" name="state">
 	  </div>
 	 </div>
 	 <div class="col-sm-6 space_right">
@@ -486,22 +498,22 @@ if($link === false){
 	 </div>
 	</div>
    </div>
-   <div class="submit_2 clearfix">
-    <h4 class="mgt col_1">Property Features</h4>
-	<hr>
-	<div class="submit_2i clearfix">
-     <h5><input type="checkbox" name="ac"> <span class="span_1">Air Conditioning</span></h5>
-	 <h5><input type="checkbox" name="pool"> <span class="span_1">Swimming Pool</span></h5>
-	 <h5><input type="checkbox" name="heating"> <span class="span_1"> Central Heating</span></h5>
-	 <h5><input type="checkbox" name="laundry"> <span class="span_1">Laundry Room</span></h5>
-	 <h5><input type="checkbox" name="gym"> <span class="span_1">Gym</span></h5>
-	 <h5><input type="checkbox" name="alarm"> <span class="span_1">Alarm</span></h5>
-	 <h5><input type="checkbox" name="window"> <span class="span_1">Window Covering</span></h5>
-	 <h5><input type="checkbox" name="fridge"> <span class="span_1">Refrigerator</span></h5>
-	 <h5><input type="checkbox" name="cable"> <span class="span_1">TV Cable & WIFI</span></h5>
-	 <h5><input type="checkbox" name="microwave"> <span class="span_1"> Microwave</span></h5>
-	</div>
-   </div>
+<!--   <div class="submit_2 clearfix">-->
+<!--    <h4 class="mgt col_1">Property Features</h4>-->
+<!--	<hr>-->
+<!--	<div class="submit_2i clearfix">-->
+<!--     <h5><input type="checkbox" id="features" name="ac"> <span class="span_1">Air Conditioning</span></h5>-->
+<!--	 <h5><input type="checkbox" id="features" name="pool"> <span class="span_1">Swimming Pool</span></h5>-->
+<!--	 <h5><input type="checkbox" id="features" name="heating"> <span class="span_1"> Central Heating</span></h5>-->
+<!--	 <h5><input type="checkbox" id="features" name="laundry"> <span class="span_1">Laundry Room</span></h5>-->
+<!--	 <h5><input type="checkbox" id="features" name="gym"> <span class="span_1">Gym</span></h5>-->
+<!--	 <h5><input type="checkbox" id="features" name="alarm"> <span class="span_1">Alarm</span></h5>-->
+<!--	 <h5><input type="checkbox" id="features" name="window"> <span class="span_1">Window Covering</span></h5>-->
+<!--	 <h5><input type="checkbox" id="features" name="fridge"> <span class="span_1">Refrigerator</span></h5>-->
+<!--	 <h5><input type="checkbox" id="features" name="cable"> <span class="span_1">TV Cable & WIFI</span></h5>-->
+<!--	 <h5><input type="checkbox" id="features" name="microwave"> <span class="span_1"> Microwave</span></h5>-->
+<!--	</div>-->
+<!--   </div>-->
    <div class="submit_1 clearfix">
     <h4 class="mgt col_1">Contact Information</h4>
 	<hr>

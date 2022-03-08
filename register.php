@@ -105,7 +105,6 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         $user_hash_password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 
         // Prepare an insert statement
-//        $sql = "INSERT INTO users (fname, lname, username, password) VALUES ('$fname','$lname','$username','$password')";
         $sql = mysqli_query($link,"INSERT INTO `users` (fname, lname, username, password) VALUES ('$fname','$lname','$username','$user_hash_password')");
 
         if($sql === TRUE){
@@ -115,29 +114,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         else{
             $error_message = "Oops! something wrong.";
         }
-//        if($stmt = mysqli_prepare($link, $sql)){
-//            // Bind variables to the prepared statement as parameters
-//            mysqli_stmt_bind_param($stmt, "ssss", $param_fname, $param_lname, $param_username, $param_password);
-//
-//            // Set parameters
-//            $param_fname = $fname;
-//            $param_lname = $lname;
-//            $param_username = $username;
-//            $param_password = password_hash($password, PASSWORD_DEFAULT); // Creates a password hash
-//
-//            // Attempt to execute the prepared statement
-//            if(mysqli_stmt_execute($stmt)){
-//                // Redirect to login page
-//                header("location: log_in.php");
-//            } else{
-//                echo "Oops! Something went wrong. Please try again later.";
-//            }
-//
-//            // Close statement
-//            mysqli_stmt_close($stmt);
-//        }
     }
-//
 
    // Close connection
     mysqli_close($link);

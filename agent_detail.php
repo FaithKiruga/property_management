@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Perfect Realty</title>
+      <link rel="icon" href="img/favicon.ico">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/global.css" rel="stylesheet">
 	<link href="css/agent_detail.css" rel="stylesheet">
@@ -79,7 +80,7 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.php"> <i class="fa fa-home"></i> <span> Prop Find</span> </a>
+				<a class="navbar-brand" href="index.php"> <i class="fa fa-home"></i> <span> Perfect Realty</span> </a>
 			</div>
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<!-- Collect the nav links, forms, and other content for toggling -->
@@ -136,7 +137,7 @@
      <div class="col-sm-8">
 	   <div class="center_list_1li clearfix">
 	   <h5 class="mgt"><a href="#">Home</a>  /  Agent Detail</h5>
-	   <h3>Cursus Ante</h3>
+	   <h3>Lissa</h3>
 	  </div>
 	   <div class="agent_1 clearfix">
 		  <div class="agent_1l clearfix">
@@ -147,7 +148,7 @@
 		   </div>
 		   <div class="col-sm-6 space_all">
 		    <div class="agent_1li clearfix">
-		   <h4 class="mgt"><a href="#">Lisa Massa</a></h4>
+		   <h4 class="mgt"><a href="#">Lisa </a></h4>
 		   <h6><a href="#">Office: +254745689012</a></h6>
 		   <h6><a href="#">Mobile: +254745689012</a></h6>
 		   <h6><a href="#">Email: lisa@gmail.com</a></h6>
