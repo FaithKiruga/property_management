@@ -151,7 +151,8 @@ display:block;
 #top{
 background:#274abb;
 padding-top:10px;
-padding-bottom:10px; 
+padding-bottom:10px;
+    /*height: 50px;*/
  }
 .top_1l ul {
 margin-top:5px;

@@ -15,34 +15,41 @@
   </head>
   
 <body>
+<!--***************************************Top************************************-->
 <section id="top">
-	<div class="container">
-		<div class="row">
-			<div class="top_1 clearfix">
-				<div class="col-sm-6">
-					<div class="top_1l clearfix">
-						<ul>
-							<li><i class="fa fa-phone"></i> Tel: +254712345678</li>
-							<li><i class="fa fa-map-marker"></i>   6th Floor ABC Place, Waiyaki way</li>
-							<li><i class="fa fa-envelope-o"></i>  perfectrealty@gmail.com</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="top_1r pull-right clearfix">
-						<ul>
+    <div class="container">
+        <div class="row">
+            <div class="top_1 clearfix">
+                <div class="col-sm-6">
+                    <div class="top_1l clearfix">
+                        <ul>
+                            <!--	  <li><i class="fa fa-phone"></i> Tel: +254712345678</li>-->
+                            <!--	  <li><i class="fa fa-map-marker"></i>   6th Floor ABC Place, Waiyaki way</li>-->
+                            <!--	  <li><i class="fa fa-envelope-o"></i>  perfectrealty@gmail.com</li>-->
+                            <li><a class="col" href="https://www.facebook.com/home.php"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="col" href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="col" href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="top_1r pull-right clearfix">
+                        <ul>
                             <li><a class="m_tag button mgt" href="log_in.php"><i class="fa fa-user"></i>  Log In</a></li>
                             <li><a class="m_tag button mgt" href="register.php"><i class="fa fa-sign-in"></i>  Sign Up</a></li>
-							<li><a class="col" href="https://www.facebook.com/home.php"><i class="fa fa-facebook"></i></a></li>
-							<li><a class="col" href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></li>
-							<li><a class="col" href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                            <li><a class="m_tag button mgt" href="logout.php">Logout</a></li>
+                            <!--	  <li><a class="col" href="https://www.facebook.com/home.php"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--	  <li><a class="col" href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--	  <li><a class="col" href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 
 <section id="header" class="clearfix cd-secondary-nav">
 	<nav class="navbar">
@@ -118,16 +125,19 @@
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8540824110037!2d36.774817314753854!3d-1.2596848990812095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f196a7e2e8fb3%3A0xf85d989cbb0ecc60!2sAbc%20Place%20Nairobi!5e0!3m2!1sen!2ske!4v1645608482465!5m2!1sen!2ske" width="100%" height="400px" frameborder="0" style="border:0;" allowfullscreen="" loading="eager"></iframe>
 	</div>
    </div>
+<!--      ************************************************** CONTACT US FORM ***************************************************-->
    <div class="contact_1 clearfix">
 	 <div class="col-sm-12 space_all">
 	  <div class="col-sm-8">
 	   <div class="contact_1il clearfix">
 	     <h4 class="mgt">CONTACT US</h4>
-		 <input class="form-control" placeholder="First Name" type="text">
-		 <input class="form-control" placeholder="Last Name" type="text">
-		 <input class="form-control" placeholder="Email" type="text">
-		 <textarea  placeholder="Message" class="form-control form_1"></textarea>
-		 <h5><a class="button" href="#">Submit</a></h5>
+           <form method="POST" action="form_to_email.php">
+		 <input class="form-control" placeholder="First Name" type="text" name="fname">
+		 <input class="form-control" placeholder="Last Name" type="text" name="lname">
+		 <input class="form-control" placeholder="Email" type="text" name="email">
+		 <textarea  placeholder="Message" class="form-control form_1" name="message"></textarea>
+		 <h5><input type="submit" formtarget="_self" class="button" href="form_to_email.php"></h5>
+           </form>
 	   </div>
 	  </div>
 	  <div class="col-sm-4">

@@ -33,34 +33,41 @@
   </head>
   
 <body onLoad="doOnLoad();">
+<!--***************************************Top************************************-->
 <section id="top">
-	<div class="container">
-		<div class="row">
-			<div class="top_1 clearfix">
-				<div class="col-sm-6">
-					<div class="top_1l clearfix">
-						<ul>
-							<li><i class="fa fa-phone"></i> Tel: +254712345678</li>
-							<li><i class="fa fa-map-marker"></i>   6th Floor ABC Place, Waiyaki way</li>
-							<li><i class="fa fa-envelope-o"></i>  perfectrealty@gmail.com</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="top_1r pull-right clearfix">
-						<ul>
+    <div class="container">
+        <div class="row">
+            <div class="top_1 clearfix">
+                <div class="col-sm-6">
+                    <div class="top_1l clearfix">
+                        <ul>
+                            <!--	  <li><i class="fa fa-phone"></i> Tel: +254712345678</li>-->
+                            <!--	  <li><i class="fa fa-map-marker"></i>   6th Floor ABC Place, Waiyaki way</li>-->
+                            <!--	  <li><i class="fa fa-envelope-o"></i>  perfectrealty@gmail.com</li>-->
+                            <li><a class="col" href="https://www.facebook.com/home.php"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="col" href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="col" href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="top_1r pull-right clearfix">
+                        <ul>
                             <li><a class="m_tag button mgt" href="log_in.php"><i class="fa fa-user"></i>  Log In</a></li>
                             <li><a class="m_tag button mgt" href="register.php"><i class="fa fa-sign-in"></i>  Sign Up</a></li>
-							<li><a class="col" href="https://www.facebook.com/home.php"><i class="fa fa-facebook"></i></a></li>
-							<li><a class="col" href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></li>
-							<li><a class="col" href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                            <li><a class="m_tag button mgt" href="logout.php">Logout</a></li>
+                            <!--	  <li><a class="col" href="https://www.facebook.com/home.php"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--	  <li><a class="col" href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--	  <li><a class="col" href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 
 <section id="header" class="clearfix cd-secondary-nav">
 	<nav class="navbar">
@@ -328,11 +335,13 @@
 			   <h6><i class="fa fa-envelope col_1"></i> <a href="#">lisa@gmail.com</a></h6><br>
 			   <h4> Request Inquiry</h4>
 			   <hr>
-			   <input placeholder="Full Name" class="form-control form_1" type="text">
-			   <input placeholder="Phone Number" class="form-control form_1" type="text">
-			   <input placeholder="Email Address" class="form-control form_1" type="text">
-			   <textarea placeholder="Message" class="form-control form_2"></textarea>
-			   <h5 class="text-center"><a class="button block" href="#">Submit Request</a></h5>
+               <form method="POST" action="request_form_to_email.php">
+                   <input name="name" placeholder="Full Name" class="form-control form_1" type="text">
+                   <input name="phone_no" placeholder="Phone Number" class="form-control form_1" type="text">
+                   <input name="email" placeholder="Email Address" class="form-control form_1" type="text">
+                   <textarea name="message" placeholder="Message" class="form-control form_2"></textarea>
+                   <h5><input type="submit" class="button block" href="request_form_to_email.php"></h5>
+               </form>
 		   </div>
 		   <div class="center_list_1r1 clearfix">
 			   <h4 class="mgt">Recent Properties</h4>

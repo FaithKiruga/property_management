@@ -15,34 +15,41 @@
   </head>
   
 <body>
+<!--***************************************Top************************************-->
 <section id="top">
-	<div class="container">
-		<div class="row">
-			<div class="top_1 clearfix">
-				<div class="col-sm-6">
-					<div class="top_1l clearfix">
-						<ul>
-							<li><i class="fa fa-phone"></i> Tel: +254712345678</li>
-							<li><i class="fa fa-map-marker"></i>   6th Floor ABC Place, Waiyaki way</li>
-							<li><i class="fa fa-envelope-o"></i>  perfectrealty@gmail.com</li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-sm-6">
-					<div class="top_1r pull-right clearfix">
-						<ul>
+    <div class="container">
+        <div class="row">
+            <div class="top_1 clearfix">
+                <div class="col-sm-6">
+                    <div class="top_1l clearfix">
+                        <ul>
+                            <!--	  <li><i class="fa fa-phone"></i> Tel: +254712345678</li>-->
+                            <!--	  <li><i class="fa fa-map-marker"></i>   6th Floor ABC Place, Waiyaki way</li>-->
+                            <!--	  <li><i class="fa fa-envelope-o"></i>  perfectrealty@gmail.com</li>-->
+                            <li><a class="col" href="https://www.facebook.com/home.php"><i class="fa fa-facebook"></i></a></li>
+                            <li><a class="col" href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></li>
+                            <li><a class="col" href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="top_1r pull-right clearfix">
+                        <ul>
                             <li><a class="m_tag button mgt" href="log_in.php"><i class="fa fa-user"></i>  Log In</a></li>
                             <li><a class="m_tag button mgt" href="register.php"><i class="fa fa-sign-in"></i>  Sign Up</a></li>
-							<li><a class="col" href="https://www.facebook.com/home.php"><i class="fa fa-facebook"></i></a></li>
-							<li><a class="col" href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></li>
-							<li><a class="col" href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+                            <li><a class="m_tag button mgt" href="logout.php">Logout</a></li>
+                            <!--	  <li><a class="col" href="https://www.facebook.com/home.php"><i class="fa fa-facebook"></i></a></li>-->
+                            <!--	  <li><a class="col" href="https://twitter.com/login"><i class="fa fa-twitter"></i></a></li>-->
+                            <!--	  <li><a class="col" href="https://www.linkedin.com/login"><i class="fa fa-linkedin"></i></a></li>-->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
+
 
 <section id="header" class="clearfix cd-secondary-nav">
 	<nav class="navbar">
